@@ -2,8 +2,8 @@
 title: Longest Sequences
 tags:
   - dp
-  - algorithms
-  - linear-algebra
+  - algo
+  - linalg
 ---
 
 These are a type of [[dynamic-programming|Dynamic Programming]] problem where we're looking for common sequences of subelements within two or more elements. Most commonly, chars within a string.

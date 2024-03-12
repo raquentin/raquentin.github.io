@@ -2,7 +2,7 @@
 title: Knapsack Problem
 tags:
   - dp
-  - algorithms
+  - algo
 ---
 Knapsack is a core problem to [[dynamic-programming|Dynamic Programming]]. It's easy to understand, but hard to solve.
 
