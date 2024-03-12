@@ -7,5 +7,4 @@ tsconfig.tsbuildinfo
 .obsidian
 .quartz-cache
 private/
-.replit
-replit.nix
+package-lock.json
