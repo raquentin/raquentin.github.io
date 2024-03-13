@@ -2,7 +2,8 @@
 title: Longest Sequences
 tags:
   - dp
-  - algo
+  - algos
+  - cs
   - linalg
 ---
 

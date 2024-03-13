@@ -2,7 +2,8 @@
 title: Chain Matrix Multiplication
 tags:
   - dp
-  - algo 
+  - cs
+  - algos
 ---
 ## 0: Chain Matrix Multiplication
 Suppose we are given a sequence of matrix dimensions. We want to compute the product of the matrices. We are not given the matrices, just the dimensions. In which order should we multiply the matrices in order to minimize the number of operations?

@@ -27,13 +27,12 @@ export const defaultContentPageLayout: PageLayout = {
     Component.PageTitle(),
     Component.MobileOnly(Component.Spacer()),
     Component.Search(),
-    Component.Darkmode(),
     Component.DesktopOnly(
       Component.RecentNotes({
         title: "Recent Posts",
-        limit: 4,
+        limit: 3,
         filter: (f) =>
-          f.slug!.startsWith("posts/") && f.slug! !== "posts/index" && !f.frontmatter?.noindex,
+          f.slug!.startsWith("posts/") && (f.slug! !== "posts/index") && !f.frontmatter?.noindex,
         linkToMore: "posts/" as SimpleSlug,
       }),
     ),
@@ -60,7 +59,6 @@ export const defaultListPageLayout: PageLayout = {
     Component.PageTitle(),
     Component.MobileOnly(Component.Spacer()),
     Component.Search(),
-    Component.Darkmode(),
     Component.DesktopOnly(Component.Explorer()),
   ],
   right: [],

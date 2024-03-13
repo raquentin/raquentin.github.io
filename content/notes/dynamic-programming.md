@@ -2,7 +2,8 @@
 title: Dynamic Programming
 tags:
   - dp
-  - algo
+  - cs
+  - algos
 ---
 
 Two ways:

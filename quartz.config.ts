@@ -8,7 +8,7 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "raquent.in",
+    pageTitle: "RaQuent.in",
     enableSPA: true,
     enablePopovers: true,
     analytics: {
@@ -22,28 +22,28 @@ const config: QuartzConfig = {
       fontOrigin: "googleFonts",
       cdnCaching: true,
       typography: {
-        header: "DM Serif Text",
-        body: "Bricolage Grotesque",
-        code: "JetBrains Mono",
+        header: "DM Serif Display",
+        body: "Inter",
+        code: "DM Mono",
       },
       colors: {
+        lightMode: { //this is actually dark mode
+          light: "#0B0E14",
+          lightgray: "#303030",
+          gray: "#dddddd",
+          darkgray: "#e4e4e4",
+          dark: "#fffff",
+          secondary: "#59C2FF",
+          tertiary: "#EC853C",
+          highlight: "rgba(143, 159, 169, 0.15)",
+        },
         darkMode: {
           light: "#FBF7EE",
           lightgray: "#e0dcd3",
           gray: "#b8b8b8",
           darkgray: "#2A354B",
           dark: "#08142C",
-          secondary: "#274B75",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
-        },
-        lightMode: {
-          light: "#101520",
-          lightgray: "#1D232D",
-          gray: "#2A354B",
-          darkgray: "#d4d4d4",
-          dark: "#ebebec",
-          secondary: "#7188A9",
+          secondary: "#5da994",
           tertiary: "#84a59d",
           highlight: "rgba(143, 159, 169, 0.15)",
         },
@@ -59,8 +59,8 @@ const config: QuartzConfig = {
       Plugin.Latex({ renderEngine: "katex" }),
       Plugin.SyntaxHighlighting({
         theme: {
-          light: "github-light",
-          dark: "github-dark",
+          light: "ayu-dark",
+          dark: "vitesse-light",
         },
         keepBackground: false,
       }),
