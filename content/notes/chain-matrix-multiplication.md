@@ -3,9 +3,9 @@ title: Chain Matrix Multiplication
 tags:
   - dp
   - cs
-  - algos
+  - algo
 ---
-## 0: Chain Matrix Multiplication
+
 Suppose we are given a sequence of matrix dimensions. We want to compute the product of the matrices. We are not given the matrices, just the dimensions. In which order should we multiply the matrices in order to minimize the number of operations?
 
 Say we have:
@@ -24,7 +24,7 @@ Given two matrices of dimensions $(d_0  \times d_1)$ and $(d_1 \times d_2)$, we 
 
 This discrepancy allows us to optimize. The number of possible associations grows exponentially, making search non-trivial. The number of parantheticalizations follows the Catalan numbers, which grow $\Omega(4^{n}/n^{3/2})$. The greedy approach won't consistently yield the best answer, so we'll need [[dynamic-programming|Dynamic Programming]] for this one.
 
-#### Algorithm
+## Algorithm
 We can trivially create trees for these associations where the children are the left and right terms, and the parent is the expression.
 We cannot, however, choose one binary tree from an algorithm, we need to consider all binary trees. The dynamic programming approach to this problem relies on the fact that each binary tree is a sub-tree of the root expression, meaning that we can store these trees in a dp structure and compute as solution by combining its minimal subproblems.
 We'll define the db table as $T[1..n][1..n]$ where $T[i, j] =$ the cost to multiply $A_i, A_{i+1}, .., A_j$. Our base case comes from $\forall i \text{ } T[i, i] = 0$.
@@ -33,7 +33,7 @@ The very last step involves splitting the sequence of the matrices into two prod
 $$T[i, j] = \underset{i \leq k \leq j}{min} T[i, k] + T[k+1, j] + d_{i-1}d_kd_j$$
 The $k$ for which this is the minimum corresponds to the costs to compute $(A_i..A_k), A_{k+1}..A_j)$, plus the cost to multiply them together.
 
-#### Pseudocode
+## Pseudocode
 We're going to end up ignoring half the table because the recurrence only fills up the top half ($i \leq j$).
 
 ```python

@@ -3,15 +3,10 @@ title: Dynamic Programming
 tags:
   - dp
   - cs
-  - algos
+  - algo
 ---
 
-Two ways:
-- Top down, with recurrence and memorization.
--  Bottom up, with iteration.
-	- In either case, we solve small subproblems and store them.
-- This causes a space-time trade-off.
-The difference between Divide and Conquer algorithms and Dynamic Programming algorithms is that the subproblems in DP overlap, so it's inefficient to recompute all of them.
+There's two variants of dymanic programming algorithms: top down, with recurrence and memorization, and bottom up, with iteration. In either case, we solve small subproblems and store them. This causes a space-time trade-off. The difference between Divide and Conquer algorithms and Dynamic Programming algorithms is that the subproblems in DP overlap, so it's inefficient to recompute all of them.
 
 ## Fibonacci
 The recursive algorithm below takes exponential time with respect to n. It can be made faster by storing intermediate results.
@@ -153,33 +148,36 @@ Find the number of paths to reach cell (n, m). Additionally, the grid has bombs,
 ### Solution
 - Define array $T[1..n][1..m]$ where $T[i][j]$ is the number of paths from $(1,1)$ to $(i, j)$.
 - Base cases:
-	- If the starting cell (1,1) has a bomb, then there are 0 paths.
-	- The first row and first column
-	- Then the recurrence relation
 
-$$\begin{equation}
+$$
+\begin{equation}
 	dp[1][1] =
 	\begin{cases}
 		0 & \text{if } bombs[1][1] \\
 		1 & \text{otherwise}
 	\end{cases}
-\end{equation}$$
+\end{equation}
+$$
 
-$$\begin{equation}
+$$
+\begin{equation}
 dp[i][1] =
 \begin{cases}
 	0 & \text{if } bombs[i][1] \\
 	dp[i-1][1] & \text{otherwise}
 \end{cases}
-\end{equation}$$
+\end{equation}
+$$
 
-$$\begin{equation}
+$$
+\begin{equation}
 dp[1][] =
 \begin{cases}
 	0 & \text{if } bombs[1][j] \\
 	dp[1][j-1] & \text{otherwise}
 \end{cases}
-\end{equation}$$
+\end{equation}
+$$
 
 - This means that if a cell has a bomb, no paths can go through it. Otherwise, the number of paths to a cell is the sum of the paths to the cell above it and to its left. The solution will be $dp[n][m]$.
 

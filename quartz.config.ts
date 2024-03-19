@@ -8,7 +8,7 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "RaQuent.in",
+    pageTitle: "Raquent.in",
     enableSPA: true,
     enablePopovers: true,
     analytics: {
@@ -28,13 +28,13 @@ const config: QuartzConfig = {
       },
       colors: {
         lightMode: { //this is actually dark mode
-          light: "#0B0E14",
+          light: "#0a0a09",
           lightgray: "#303030",
           gray: "#dddddd",
           darkgray: "#e4e4e4",
           dark: "#fffff",
           secondary: "#59C2FF",
-          tertiary: "#EC853C",
+          tertiary: "#4963a6",
           highlight: "rgba(143, 159, 169, 0.15)",
         },
         darkMode: {
@@ -43,8 +43,8 @@ const config: QuartzConfig = {
           gray: "#dddddd",
           darkgray: "#e4e4e4",
           dark: "#fffff",
-          secondary: "#59C2FF",
-          tertiary: "#EC853C",
+          secondary: "#82AAFF",
+          tertiary: "#d97e3d",
           highlight: "rgba(143, 159, 169, 0.15)",
         },
       },
@@ -59,7 +59,7 @@ const config: QuartzConfig = {
       Plugin.Latex({ renderEngine: "katex" }),
       Plugin.SyntaxHighlighting({
         theme: {
-          light: "ayu-dark",
+          light: "material-theme-darker",
           dark: "vitesse-light",
         },
         keepBackground: false,

@@ -1,11 +1,11 @@
 ---
-title: 2212
+title: Welcome
 ---
 
-I'm Race. Welcome to the source node in a graph of opinionated write-ups on [[tags/cs|programming]], [[tags/hip-hop|hip-hop]], [[tags/energy-drinks|energy drinks]], [[tags/poker|poker]], and more.
+This site hosts informal writings primarily on computer science and software engineering. 
 
-I'm a second-year CS undergrad and programmer from Catuala, GA. My current technical interests include compilers, [[tags/dsp|dsp]], and [[tags/webdev|fullstack webdev]]. 
+The writeups on here are categorized as either [[notes]] or [[posts]]. Notes are my personal notes on technical topics derived from books and videos and should hence not be cited as my writing.
 
-### Contact
+## Author
 
-
+I'm Race, a programmer and second-year CS undergrad from the US. I'm currently interested in programming languages, poker game theory, and software engineering.
