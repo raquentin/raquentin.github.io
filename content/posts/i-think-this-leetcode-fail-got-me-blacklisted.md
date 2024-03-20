@@ -1,5 +1,6 @@
 ---
 title: I Think This LeetCode Fail Got Me Blacklisted
+date: 2024-03-16
 tags:
   - algo
   - cs

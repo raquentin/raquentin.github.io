@@ -1,12 +1,13 @@
 ---
 title: Dynamic Programming
+date: 2024-03-07
 tags:
   - dp
   - cs
   - algo
 ---
 
-There's two variants of dymanic programming algorithms: top down, with recurrence and memorization, and bottom up, with iteration. In either case, we solve small subproblems and store them. This causes a space-time trade-off. The difference between Divide and Conquer algorithms and Dynamic Programming algorithms is that the subproblems in DP overlap, so it's inefficient to recompute all of them.
+There's two variants of dymanic programming algorithms: top down, with recurrence and memorization, and bottom up, with iteration. In either case, we solve small subproblems and store them. This causes a space-time trade-off. The difference between Divide and Conquer algorithms and Dynamic Programming algorithms is that the subproblems in DP overlap, so it's inefficient to recompute all of them.[^1]
 
 ## Fibonacci
 The recursive algorithm below takes exponential time with respect to n. It can be made faster by storing intermediate results.
@@ -205,3 +206,6 @@ def count_with_bombs(n, m, bombs):
 ```
 
 The time complexity here is $O(n \times m)$ because we're visiting each cell of the grid exactly once.
+
+
+[^1]: This note is derived from [[https://faculty.cc.gatech.edu/~ladha/S24/3510/|Georgia Tech's CS 3510]].

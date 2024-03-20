@@ -1,5 +1,6 @@
 ---
 title: Longest Sequences
+date: 2024-03-08
 tags:
   - dp
   - algo
@@ -7,7 +8,7 @@ tags:
   - linalg
 ---
 
-These are a type of [[dynamic-programming|Dynamic Programming]] problem where we're looking for common sequences of subelements within two or more elements. Most commonly, chars within a string.
+These are a type of [[dynamic-programming|Dynamic Programming]] problem where we're looking for common sequences of subelements within two or more elements. Most commonly, chars within a string.[^1]
 
 ## Longest Common Substring
 Given two strings $a_1$, $a_2$, return the largest substring present in both.
@@ -116,3 +117,6 @@ def lps(x):
 ```
 
 The runtime is $O(n^2)$ because it's a two-dimensional $n \times n$ table. 
+
+
+[^1]: This note is derived from [[https://faculty.cc.gatech.edu/~ladha/S24/3510/|Georgia Tech's CS 3510]].

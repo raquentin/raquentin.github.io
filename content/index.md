@@ -4,7 +4,7 @@ title: Welcome
 
 This site hosts informal writings primarily on computer science and software engineering. 
 
-The writeups on here are categorized as either [[notes]] or [[posts]]. Notes are my personal notes on technical topics derived from books and videos and should hence not be cited as my writing.
+The writeups on here are categorized as either [[notes]] or [[posts]]. Unlike posts, notes (often derived from books and videos) should not be cited as my own writing.
 
 ## Author
 
