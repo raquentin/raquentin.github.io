@@ -6,7 +6,7 @@ tags:
   - cs
 ---
 
-Given a problem, there may exist any number of upper and lower bounds for solving it. The lower bounds can involve deep mathematical cross-problem relationships[^1].
+Given a problem, there may exist any number of upper and lower bounds for solving it. The lower bounds can involve deep mathematical cross-problem relationships.
 
 ## An Introduction
 
@@ -34,10 +34,9 @@ Define $P$ to be the class of decision problems decidable in polynomial time. If
 
 NP-complete problems are the hardest problems in $NP$.
 
-Prove a problem is NP-complete by defining a polynomial time reduction for two problems $A, B$ such that $A \leq_{p} B$[^2]. $A$ is poly time reducible to $B$ if there exists $f$ which is computable in polynomail time such that $x \in A \iff f(x) \in B$.
+Prove a problem is NP-complete by defining a polynomial time reduction for two problems $A, B$ such that $A \leq_{p} B$[^1]. $A$ is poly time reducible to $B$ if there exists $f$ which is computable in polynomail time such that $x \in A \iff f(x) \in B$.
 
 In short, to prove a problem $B$ is NP-complete, show $B \in NP$ and $B$ is NP-hard, usually by virtue of $A$ being NP-complete and $A \leq_p B$.
 
 
-[^1]: This note is derived from [[https://faculty.cc.gatech.edu/~ladha/S24/3510/|Georgia Tech's CS 3510]].
-[^2]: Think of ($A \leq_{p} B$) as $B$ being as hard or harder than $A$. $B$ is an upper bound for $A$; $A$ is a lower bound for $B$.
+[^1]: Think of ($A \leq_{p} B$) as $B$ being as hard or harder than $A$. $B$ is an upper bound for $A$; $A$ is a lower bound for $B$.

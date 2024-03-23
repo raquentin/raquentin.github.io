@@ -8,4 +8,4 @@ The writeups on here are categorized as either [[notes]] or [[posts]]. Unlike po
 
 ## Author
 
-I'm Race, a programmer and second-year CS undergrad from the US. I'm currently interested in programming languages, poker game theory, and software engineering.
+I'm Race, a second-year CS undergrad from the US interested in programming languages and software engineering.

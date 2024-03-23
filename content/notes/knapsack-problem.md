@@ -6,7 +6,7 @@ tags:
   - cs
   - algo
 ---
-Knapsack is a core problem to [[dynamic-programming|Dynamic Programming]]. It's easy to understand, but hard to solve.[^1]
+Knapsack is a core problem to [[dynamic-programming|Dynamic Programming]]. It's easy to understand, but hard to solve.
 
 Suppose you are given $n$ items $(v_i, w_i)$ where $v_i$ is the value of item $i$ and $w_i$ is the weight of item $i$. You have capacity $W$. Your goal is to maximize the value of items subject to having the sum of the weights be less than or equal to the capacity.
 
@@ -47,5 +47,3 @@ def knapsack(W, weights, values):
 
 The space of this is $O(nW)$. The runtime is $O(2^kn)$.
 
-
-[^1]: This note is derived from [[https://faculty.cc.gatech.edu/~ladha/S24/3510/|Georgia Tech's CS 3510]].

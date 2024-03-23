@@ -7,7 +7,7 @@ tags:
   - algo
 ---
 
-Suppose we are given a sequence of matrix dimensions. We want to compute the product of the matrices. We are not given the matrices, just the dimensions. In which order should we multiply the matrices in order to minimize the number of operations?[^1]
+Suppose we are given a sequence of matrix dimensions. We want to compute the product of the matrices. We are not given the matrices, just the dimensions. In which order should we multiply the matrices in order to minimize the number of operations?
 
 Say we have:
 - $A = (50 \times 20)$
@@ -50,5 +50,3 @@ def chainmatrix(d_0, d_1, ..., d_n):
 ```
 
 In this algorithm, we need to fill in $n^{2}/2$ cells, each taking $n$ time. This leads to $O(n^3)$ runtime.
-
-[^1]: This writeup is derived from [[https://cryptolab.gtisc.gatech.edu/ladha/CS3510F23/3510L12.pdf|Georgia Tech's CS 3510]].
