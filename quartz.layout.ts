@@ -8,9 +8,9 @@ export const sharedPageComponents: SharedLayout = {
   header: [],
   footer: Component.Footer({
     links: {
-      GitHub: "https://github.com/r4c3/",
+      GitHub: "https://github.com/raquentin/",
       YouTube: "https://youtube.com/@raquentin/",
-      LinkedIn: "https://linkedin.com/in/r4c3/",
+      LinkedIn: "https://linkedin.com/in/raquentin/",
     },
   }),
 }
@@ -32,7 +32,7 @@ export const defaultContentPageLayout: PageLayout = {
         title: "Recent Posts",
         limit: 3,
         filter: (f) =>
-          f.slug!.startsWith("posts/") && (f.slug! !== "posts/index") && !f.frontmatter?.noindex,
+          f.slug!.startsWith("posts/") && (f.slug! !== "posts/index") && (f.slug! !== "posts/the-booklist") && (f.slug! !== "posts/my-favorite-quotes-in-programming") && !f.frontmatter?.noindex,
         linkToMore: "posts/" as SimpleSlug,
       }),
     ),

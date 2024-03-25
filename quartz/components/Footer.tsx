@@ -12,7 +12,7 @@ export default ((opts?: Options) => {
       <footer class={`${displayClass ?? ""}`}>
         <hr />
         <p>
-          Monads are just monoids in the category of endofunctors. What's the problem?
+          A monad is just a monoid in the category of endofunctors. What's the problem?
         </p>
         <ul>
           {Object.entries(links).map(([text, link]) => (

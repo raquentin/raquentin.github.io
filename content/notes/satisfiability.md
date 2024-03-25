@@ -3,8 +3,9 @@ title: Satisfiability
 tags:
   - algo
   - cs
-date: 2023-03-23
+date: 2024-03-23
 ---
+
  Satisfiability continues a conversation on [[np-completeness|NP-completeness]]. To prove some problem B is NP-complete:
  1. Prove $B \in \text{NP}$ by showing that it is verifiable in polynomial time.
  2. Prove $B$ is NP-hard; $A \leq_{p} B$. For this, choose some known $A$ which is NP-complete, then give some reduction $f$ computable in polynomial time such that for every $x \in A$:
