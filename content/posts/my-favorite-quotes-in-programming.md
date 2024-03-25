@@ -9,7 +9,10 @@ tags:
 > \- Alan Perlis
 
 > "A monad is just a monoid in the category of endofunctors." \
-> \- Phillip Wadler
+> \- Phillip Wadler, as misattributed by James Wry
 
 > "Microsoft is a lot better at making money than it is at making good operating systems." \
 > \- Linus Torvalds
+
+> "Java: Write once, debug everywhere" \
+> \- Sun Microsystems
