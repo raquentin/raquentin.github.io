@@ -16,3 +16,6 @@ tags:
 
 > "Java: Write once, debug everywhere" \
 > \- Sun Microsystems
+
+> "Done right, a compiler should be able to figure out type automatically. It's not that hard." \
+> \- Elon Musk (🤡)

@@ -15,6 +15,7 @@ An incrementally updated list of books that I have read, am reading, or intend t
 ## In Progress
 - **Rust for Rusteceans** by Jon Gjengset
 - **A Philosophy of Software Design** by John Ousterhout
+- **Haskell Programming from First Principles** by Christopher Allen and Julie Moronuki
 - **Algorithms** by Sanjoy Dasgupta, Christos Papadimitriou, and Umesh Vazirani
 
 ## Done
@@ -24,4 +25,5 @@ An incrementally updated list of books that I have read, am reading, or intend t
 - **The Rust Programming Language** by Steve Klabnik and Carol Nichols
 
 ### 2023
+
 - **Cracking the Coding Interview** by Gayle Laakmann McDowell
