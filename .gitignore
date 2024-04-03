@@ -8,3 +8,4 @@ tsconfig.tsbuildinfo
 .quartz-cache
 private/
 package-lock.json
+pnpm-lock.yaml
