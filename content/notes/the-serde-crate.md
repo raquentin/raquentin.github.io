@@ -9,13 +9,11 @@ tags:
 Serde is a framework for serializing and deserializing Rust data structures between various formats.
 
 ## The Serde Data Model
-
 Serde's API consists of three parts: the data format, the data type, and the Serde data model.
 
 The data type is the implementation of a data structure in Rust (`Serialize`, `Deserialize`). The data format is whatever isn't the Rust data structure, it could be JSON, BSON, CSV, etc. (`Serializer`, `Deserializer`). The Serde data model exists between the two and maps Rust data structures to specified data types.
 
 ### Serde Types
-
 The Serde data model is a simplified version of Rust's type system. The goal for `Serialize` is to take the data in a Rust data structure and convert it to a structure consisting of Serde types. From there, `Serializer`'s goal is to take the translated Serde types and once again transform them into the bytes of the serialized protocol. The goal for `Deserialize` and `Deserializer` is the reciprocal of that.
 
 ## The Serialize and Deserialize Traits
@@ -33,7 +31,6 @@ The job of `serialize` is to turn `self` into the data model of Serde. This is d
 The `Serializer` trait has many methods (`serialize_u32`, `serialize_unit_struct`, etc.) that provide this functionality.
 
 ### Serializing Structs
-
 Serializing structs is not as simple as just calling `serialize_u32` since the struct itself is more of a wireframe for the primitives (or substructs) within it than a simple value. The `Serializer` has a `serialize_struct` method which requires the `name` of the struct and `len`, the amount of fields within it.
 
 ```rust
@@ -66,7 +63,6 @@ pub trait SerializeStruct {
 ```
 
 ### Deserializing Structs
-
 One observable difference between a derivation of `Deserialize` on a struct as opposed to `Serialize` is the presence of a `<'de>` generic lifetime parameter:
 
 ```rust

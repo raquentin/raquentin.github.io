@@ -8,7 +8,6 @@ tags:
 ---
 
 There's two variants of dymanic programming algorithms: top down, with recurrence and memorization, and bottom up, with iteration. In either case, we solve small subproblems and store them. This causes a space-time trade-off. The difference between Divide and Conquer algorithms and Dynamic Programming algorithms is that the subproblems in DP overlap, so it's inefficient to recompute all of them.
-
 ## Fibonacci
 The recursive algorithm below takes exponential time with respect to n. It can be made faster by storing intermediate results.
 
@@ -39,10 +38,8 @@ Essentially every DP solution involves:
 - base case
 - filling memory structure using recurrence
 	- $dp[i] = dp[i-1] + dp[i-2]$ in this example
-
 ## Staircase Problem
 Suppose you have $n$ stair steps. You can leap one, two, or three steps at a time. What is the number of combinations that you could reach step $n$?
-
 ### Solution
 - Create an array $T[0..n]$ where $T[i]$ represents the number of ways to reach step $i$. 
 - Base cases are: $T[0] = 1, T[1] = 1$ and $T[2]=2$.
@@ -97,7 +94,6 @@ def minop(k):
 
 ## The House Robber Problem
 House robber. Given an array of houses with values $H = [h_{1}..h_{n}]$, you want to rob them, but you can't rob two adjacent houses or alarms will go off. What is the maximum amount you can steal?
-
 ### Solution
 - Define array $T[0..n]$ with $T[i]$ = max we can steal from houses $0..i$. The base cases are that $T[0] = H[0], T[1] = max(H[0], H[1])$.
 - At the next house visited, we can choose to rob or not rob. We take the maximum of both scenarios. If we rob the house, then we could not have robbed the previous house. If we didn't rob the house, then we could have robbed the previous house. This gives us the recurrence:
@@ -118,7 +114,6 @@ def houserobber(H):
 
 ## Counting Paths Problem
 Given $n,m$, what is the number of paths through an $n \times m$ grid from (1,1) to ($n,m$) if you can only go down and right?
-
 ### Solution
 - Define array $T[1..n][1..m]$ where $T[i][j]$ is the number of paths from (1,1) to ($i, j$).
 - Base cases are that $T[1..n][1] \text{ and } T[1][1..m] = 1$. These are like the first row and column of the matrix.
@@ -145,7 +140,6 @@ def count_paths(n, m):
 
 ## Counting Paths, But Now With Bombs
 Find the number of paths to reach cell (n, m). Additionally, the grid has bombs, denoted by $bombs[i][j] = True$. Find the number of paths from (0,0) to ($n, m$) such that no bombs are traversed.
-
 ### Solution
 - Define array $T[1..n][1..m]$ where $T[i][j]$ is the number of paths from $(1,1)$ to $(i, j)$.
 - Base cases:
@@ -181,7 +175,6 @@ dp[1][] =
 $$
 
 - This means that if a cell has a bomb, no paths can go through it. Otherwise, the number of paths to a cell is the sum of the paths to the cell above it and to its left. The solution will be $dp[n][m]$.
-
 ### Pseudocode
 ```python
 def count_with_bombs(n, m, bombs):
