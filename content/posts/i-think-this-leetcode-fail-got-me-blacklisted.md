@@ -2,8 +2,7 @@
 title: I Think This LeetCode Fail Got Me Blacklisted
 date: 2024-03-16
 tags:
-  - algo
-  - cs
+  - dsa
 ---
 
 Coming to Georgia Tech as a freshman last year, I was pretty bad at data structures and algorithms. So bad, in fact, my $O(cn^2)$ solution to a $O(n)$  got me pseudo-blacklisted from the company I was interviewing for.

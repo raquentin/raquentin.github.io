@@ -1,8 +1,6 @@
 ---
 title: My Favorite Quotes in Programming
 date: 2024-03-24
-tags:
-  - cs
 ---
 
 > "A language that does not change the way you think about programming is now worth knowing" \

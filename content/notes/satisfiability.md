@@ -1,8 +1,7 @@
 ---
 title: Satisfiability
 tags:
-  - algo
-  - cs
+  - dsa
 date: 2024-03-23
 ---
 

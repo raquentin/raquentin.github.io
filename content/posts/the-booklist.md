@@ -1,9 +1,6 @@
 ---
 title: The Booklist
 date: 2024-03-24
-tags:
-  - book 
-  - cs
 ---
 
 An incrementally updated list of books that I have read, am reading, or intend to read, with occasional elaboration.

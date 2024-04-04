@@ -2,7 +2,6 @@
 title: The Serde Crate
 date: 2024-03-25
 tags:
-  - cs
   - rust
 ---
 
