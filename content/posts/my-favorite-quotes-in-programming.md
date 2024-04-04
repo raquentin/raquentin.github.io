@@ -19,3 +19,6 @@ tags:
 
 > "Done right, a compiler should be able to figure out type automatically. It's not that hard." \
 > \- Elon Musk (🤡)
+
+> "There are many ways of trying to understand programs. People often rely too much on one way, which is called “debugging” and consists of running a partly-understood program to see if it does what you expected. Another way, which ML advocates, is to install some means of understanding in the very programs themselves." \
+> \- Robin Milner
