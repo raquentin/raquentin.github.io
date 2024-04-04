@@ -2,7 +2,7 @@
 title: Welcome
 ---
 
-I'm Race, a sysarch/theory CS undergrad at Georgia Tech interested in programming languages, algorithms, and software design; essentially everything besides LLMs. I work on software for developers: [[https://github.com/skrusenti/skru|Skru]], [[https://github.com/raquentin/haskode|Haskode]], and soon some things at Credit Karma.
+I'm Race, a sysarch/theory-pilled CS undergrad at Georgia Tech interested in programming languages, algorithms, and software design; essentially everything besides LLMs. I work on software for developers: [[https://github.com/skrusenti/skru|Skru]], [[https://github.com/raquentin/haskode|Haskode]], and soon some things at Credit Karma.
 
 
 This site hosts opinionated writeups and personal notes primarily on computer science and software engineering. 
