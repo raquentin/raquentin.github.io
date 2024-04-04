@@ -2,6 +2,7 @@
 title: Satisfiability
 tags:
   - dsa
+  - complexity
 date: 2024-03-23
 ---
 

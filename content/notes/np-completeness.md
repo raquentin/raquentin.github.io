@@ -3,6 +3,7 @@ title: NP-Completeness
 date: 2024-03-18
 tags:
   - dsa
+  - complexity
 ---
 
 Given a problem, there may exist any number of upper and lower bounds for solving it. The lower bounds can involve deep mathematical cross-problem relationships.

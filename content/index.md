@@ -2,7 +2,7 @@
 title: Welcome
 ---
 
-I'm Race, a CS undergrad from the US interested in programming languages and software design. I work on developer tools, namely [[https://github.com/skrusenti/skru|Skru]], [[https://github.com/raquentin/haskode|Haskode]], and soon some things at Credit Karma.
+I'm Race, a CS undergrad from the US interested in programming languages and software design. I write applications for developers, namely [[https://github.com/skrusenti/skru|Skru]], [[https://github.com/raquentin/haskode|Haskode]], and soon some things at Credit Karma.
 
 
 This site hosts opinionated writeups and personal notes primarily on computer science and software engineering. 

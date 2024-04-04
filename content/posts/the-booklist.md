@@ -8,6 +8,7 @@ An incrementally updated list of books that I have read, am reading, or intend t
 ## Backlog
 - **Designing Data-Intensive Applications** by Martin Kleppmann
 - **The C Programming Language** by Brian Kernighan and Dennis Ritchie
+- **The Science of Functional Programming** by Sergei Winitzki
 
 ## In Progress
 - **Rust for Rusteceans** by Jon Gjengset
@@ -20,7 +21,4 @@ An incrementally updated list of books that I have read, am reading, or intend t
 ### 2024
 
 - **The Rust Programming Language** by Steve Klabnik and Carol Nichols
-
-### 2023
-
 - **Cracking the Coding Interview** by Gayle Laakmann McDowell
