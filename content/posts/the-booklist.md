@@ -15,6 +15,7 @@ An incrementally updated list of books that I have read, am reading, or intend t
 - **Haskell Programming from First Principles** by Christopher Allen and Julie Moronuki
 - **Algorithms** by Sanjoy Dasgupta, Christos Papadimitriou, and Umesh Vazirani
 - **The C Programming Language** by Brian Kernighan and Dennis Ritchie
+- **Static Program Analysis** by Andres Møller and Michael I. Schwartzbach
 
 ## Done
 
