@@ -7,18 +7,19 @@ An incrementally updated list of books that I have read, am reading, or intend t
 
 ## Backlog
 - **Designing Data-Intensive Applications** by Martin Kleppmann
-- **The C Programming Language** by Brian Kernighan and Dennis Ritchie
 - **The Science of Functional Programming** by Sergei Winitzki
+- **The Theory of Computation** by Michael Sipser
 
 ## In Progress
 - **Rust for Rusteceans** by Jon Gjengset
-- **A Philosophy of Software Design** by John Ousterhout
 - **Haskell Programming from First Principles** by Christopher Allen and Julie Moronuki
 - **Algorithms** by Sanjoy Dasgupta, Christos Papadimitriou, and Umesh Vazirani
+- **The C Programming Language** by Brian Kernighan and Dennis Ritchie
 
 ## Done
 
 ### 2024
 
+- **A Philosophy of Software Design** by John Ousterhout
 - **The Rust Programming Language** by Steve Klabnik and Carol Nichols
 - **Cracking the Coding Interview** by Gayle Laakmann McDowell
