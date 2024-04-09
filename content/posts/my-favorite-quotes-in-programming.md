@@ -20,3 +20,6 @@ date: 2024-03-24
 
 > "There are many ways of trying to understand programs. People often rely too much on one way, which is called “debugging” and consists of running a partly-understood program to see if it does what you expected. Another way, which ML advocates, is to install some means of understanding in the very programs themselves." \
 > \- Robin Milner
+
+> "For anyone interested in programming, what can be more fun that writing programs that analyze programs?" \
+> - Anders Møller and Michael Schwartzbach
