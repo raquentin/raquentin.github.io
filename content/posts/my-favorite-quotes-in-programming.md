@@ -3,7 +3,7 @@ title: My Favorite Quotes in Programming
 date: 2024-03-24
 ---
 
-> "A language that does not change the way you think about programming is now worth knowing" \
+> "A language that does not change the way you think about programming is not worth knowing" \
 > \- Alan Perlis
 
 > "A monad is just a monoid in the category of endofunctors." \
@@ -22,4 +22,4 @@ date: 2024-03-24
 > \- Robin Milner
 
 > "For anyone interested in programming, what can be more fun that writing programs that analyze programs?" \
-> - Anders Møller and Michael Schwartzbach
+> \- Anders Møller and Michael Schwartzbach
