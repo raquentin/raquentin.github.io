@@ -3,8 +3,6 @@ title: The Booklist
 date: 2024-03-24
 ---
 
-An incrementally updated list of books that I have read, am reading, or intend to read, with occasional elaboration.
-
 ## Backlog
 - **Designing Data-Intensive Applications** by Martin Kleppmann
 - **The Science of Functional Programming** by Sergei Winitzki
