@@ -14,13 +14,14 @@ An incrementally updated list of books that I have read, am reading, or intend t
 - **Rust for Rusteceans** by Jon Gjengset
 - **Haskell Programming from First Principles** by Christopher Allen and Julie Moronuki
 - **Algorithms** by Sanjoy Dasgupta, Christos Papadimitriou, and Umesh Vazirani
-- **The C Programming Language** by Brian Kernighan and Dennis Ritchie
 - **Static Program Analysis** by Andres Møller and Michael Schwartzbach
+- **Practical SQL** by Anthony DeBarros
 
 ## Done
 
 ### 2024
 
+- **The C Programming Language** by Brian Kernighan and Dennis Ritchie
 - **A Philosophy of Software Design** by John Ousterhout
 - **The Rust Programming Language** by Steve Klabnik and Carol Nichols
 - **Cracking the Coding Interview** by Gayle Laakmann McDowell
