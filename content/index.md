@@ -2,7 +2,7 @@
 title: Welcome
 ---
 
-I'm Race, a sysarch/theory CS undergrad at Georgia Tech interested in programming languages, algorithms, and software design. I mostly work on libraries and devtools: [[https://github.com/raquentin/dyck|dyck]], [[https://github.com/skrusenti/skru|Skru]], [[https://github.com/raquentin/haskode|Haskode]].
+I'm Race, a sysarch/theory CS undergrad at Georgia Tech interested in programming languages, algorithms, and software design. I mostly work on libraries and devtools.
 
 This site hosts opinionated writeups and personal notes primarily on computer science and software engineering. 
 
