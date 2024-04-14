@@ -23,3 +23,6 @@ date: 2024-03-24
 
 > "For anyone interested in programming, what can be more fun that writing programs that analyze programs?" \
 > \- Anders Møller and Michael Schwartzbach
+
+> "Your operating system is nothing more than a bootloader for Google Chrome." \
+> \- Kenny
