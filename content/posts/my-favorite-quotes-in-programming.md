@@ -3,6 +3,9 @@ title: My Favorite Quotes in Programming
 date: 2024-03-24
 ---
 
+> "Kernels of good ideas have been taken to holistic extremes in a way that has been disasterous to the industry and certainly to programming education." \
+> \- Brian Will
+
 > "A language that does not change the way you think about programming is not worth knowing." \
 > \- Alan Perlis
 
