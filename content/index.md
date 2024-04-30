@@ -4,7 +4,7 @@ title: Welcome
 
 I'm Race, a CS undergrad at Georgia Tech. I work on libraries, compilers, and devtools.
 
-This site hosts writeups and personal notes on computer science and software engineering. 
+This site hosts writeups and personal notes on computer science and software engineering.
 
 You may find interest in:
   - my [[posts]],

@@ -22,4 +22,3 @@ date: 2024-03-24
 - **The C Programming Language** by Brian Kernighan and Dennis Ritchie
 - **A Philosophy of Software Design** by John Ousterhout
 - **The Rust Programming Language** by Steve Klabnik and Carol Nichols
-- **Cracking the Coding Interview** by Gayle Laakmann McDowell
