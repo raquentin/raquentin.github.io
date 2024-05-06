@@ -13,6 +13,7 @@ date: 2024-03-24
 - **Haskell Programming from First Principles** by Christopher Allen and Julie Moronuki
 - **Static Program Analysis** by Andres Møller and Michael Schwartzbach
 - **Practical SQL** by Anthony DeBarros
+- **Learn Go With Tests** by Chris James
 
 ## Done
 
