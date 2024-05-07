@@ -14,6 +14,7 @@ date: 2024-03-24
 - **Static Program Analysis** by Andres Møller and Michael Schwartzbach
 - **Practical SQL** by Anthony DeBarros
 - **Learn Go With Tests** by Chris James
+- **Kalevala** by Elias Lönnrot
 
 ## Done
 
