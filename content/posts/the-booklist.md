@@ -14,12 +14,12 @@ date: 2024-03-24
 - **Haskell Programming from First Principles** by Christopher Allen and Julie Moronuki
 - **Static Program Analysis** by Andres Møller and Michael Schwartzbach
 - **Practical SQL** by Anthony DeBarros
-- **100 Go Mistakes and How to Avoid Them** by Teiva Harsanyi
 
 ## Done
 
 ### 2024
 
+- **100 Go Mistakes and How to Avoid Them** by Teiva Harsanyi
 - **Learn Go With Tests** by Chris James
 - **Algorithms** by Sanjoy Dasgupta, Christos Papadimitriou, and Umesh Vazirani
 - **The C Programming Language** by Brian Kernighan and Dennis Ritchie
