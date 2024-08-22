@@ -1,7 +1,13 @@
 ---
 title: My Favorite Quotes in Programming
 date: 2024-03-24
+tags:
+  - sw
+  - cs
 ---
+
+> "If Mozilla keeps dropping features because "no one uses them", then they might have to drop the whole browser because no one uses it."
+> \- Logic
 
 > "Kernels of good ideas have been taken to holistic extremes in a way that has been disasterous to the industry and certainly to programming education." \
 > \- Brian Will
@@ -14,6 +20,7 @@ date: 2024-03-24
 
 > "There are many ways of trying to understand programs. People often rely too much on one way, which is called “debugging” and consists of running a partly-understood program to see if it does what you expected. Another way, which ML advocates, is to install some means of understanding in the very programs themselves." \
 > \- Robin Milner
+
 
 ## Honorable Mentions: The Worst Quotes in Programming
 

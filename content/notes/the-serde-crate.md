@@ -3,6 +3,7 @@ title: The Serde Crate
 date: 2024-03-25
 tags:
   - rust
+  - pl
 ---
 
 Serde is a framework for serializing and deserializing Rust data structures between various formats.

@@ -40,7 +40,7 @@ The subset of $\mathsf{NP}$ problems where we know of a solution that *solves* t
 ## Reductions
 A reduction from problem $A$ to problem $B$ shows that $B$ is at least as hard of a problem to solve as $A$. We take an input, or instance $I$ in problem $A$ and convert it to an input $I'$ of problem $B$ using a polynomial time function $f$. Then, we retrieve a solution $S'$ by running any algorithm for $B$, and then convert it back to a solution $S$ of $A$ using a polynomial time algorithm $h$.
 
-![[reducing-problems-complexity-theory.png.png]]
+![[reducing-problems-complexity-theory.png]]
 
 To complete the reduction, we must show that there is a solution to input $I$ for $A$ iff there is a solution to input $I'$ for $B$. We show that $A$ is just a special case of $B$, therefore $B$ must be at least as hard as $A$. This process involves three steps:
 1. Describe the function $f$, which is the transformation of the instance $I$ for problem $A$ to instance $f(I) = I'$ for problem $B$, and show that it runs in polynomial time.
