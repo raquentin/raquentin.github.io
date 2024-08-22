@@ -2,6 +2,7 @@
 title: Complexity Theory
 date: 2024-04-03
 tags:
+  - math
   - dsa
   - complexity
 ---

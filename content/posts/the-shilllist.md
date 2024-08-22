@@ -21,3 +21,5 @@ An unordered list of software I love using (wip).
 ## Raquest
 
 ## Lazygit
+
+## Quartz

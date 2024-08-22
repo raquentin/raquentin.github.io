@@ -2,6 +2,7 @@
 title: Reducing NP-Hard Graph Problems
 date: 2024-04-03
 tags:
+  - cs
   - dsa
   - complexity
 ---

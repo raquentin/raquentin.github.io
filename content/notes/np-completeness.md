@@ -2,6 +2,7 @@
 title: NP-Completeness
 date: 2024-03-18
 tags:
+  - math
   - dsa
   - complexity
 ---
