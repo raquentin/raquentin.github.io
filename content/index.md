@@ -2,7 +2,7 @@
 title: Welcome
 ---
 
-I'm Race, a CS undergrad from Georgia Tech working on libraries, compilers, and devtools.
+I'm Race, a CS undergrad from Georgia Tech working on compilers, devtools, and poker software.
 
 You may find interest in:
   - my [[posts]],
