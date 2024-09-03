@@ -18,7 +18,7 @@ tags:
 - **Static Program Analysis** by Andres Møller and Michael Schwartzbach
 - **Competive Programmer's Handbook** by Antti Laaksonen
 - **The Book of Kubernetes** by Alan Hohn
-- **Elementary Number Theory and Its Applications** by Kenneth Rosen
+- **Elementary Number Theory** by James Strayer
 - **Computer Systems: An Integrated Approach to Architecture and Operating Systems** by Umakishore Ramachandran and William Leahy
 
 ## Done
