@@ -12,10 +12,9 @@ You may find interest in:
   - or another of [[posts/the-booklist|some books I'm reading]].
 
 Current work priority queue:
-  - a [binary fmt for poker hands](https://github.com/gensengcom/heir) (and related private repos),
-  - a [command-line HTTP client](https://github.com/raquentin/raquest),
+  - a [batteries-excluded command-line HTTP client](https://github.com/raquentin/raquest),
+  - a [binary fmt for poker hands](https://github.com/gensengcom/heir),
   - [Stripe API bindings for Gleam](https://github.com/raquentin/gripe),
-  - [Leetcode but Haskell](https://github.com/raquentin/haskode),
   - [изучением русского языка](https://www.linkedin.com/feed/update/urn:li:activity:7155095488885624832/),
   - and a [Codeforces](https://codeforces.com/profile/raquentin) elo grind.
 
