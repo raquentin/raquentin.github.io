@@ -19,7 +19,7 @@ tags:
 - **Competive Programmer's Handbook** by Antti Laaksonen
 - **The Book of Kubernetes** by Alan Hohn
 - **Elementary Number Theory** by James Strayer
-- **Computer Systems: An Integrated Approach to Architecture and Operating Systems** by Umakishore Ramachandran and William Leahy
+- **Computer Systems: An Integrated Approach to Arch and OS** by Umakishore Ramachandran and William Leahy
 
 ## Done
 
