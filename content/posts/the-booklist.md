@@ -12,12 +12,12 @@ tags:
 - **The Theory of Computation** by Michael Sipser
 - **Category Theory for Programmers** by Bartosz Milewski
 - **Practical SQL** by Anthony DeBarros
+- **The Book of Kubernetes** by Alan Hohn
 
 ## In Progress
 - **Haskell Programming from First Principles** by Christopher Allen and Julie Moronuki
+- **Retrocomputing with Clash: Haskell for FPGA Hardware Design** by Gergo Erdi
 - **Static Program Analysis** by Andres Møller and Michael Schwartzbach
-- **Competive Programmer's Handbook** by Antti Laaksonen
-- **The Book of Kubernetes** by Alan Hohn
 - **Elementary Number Theory** by James Strayer
 - **Computer Systems: An Integrated Approach to Arch and OS** by Umakishore Ramachandran and William Leahy
 
