@@ -7,7 +7,7 @@ I'm Race, a CS undergrad from Georgia Tech working on compilers, devtools, and p
 You may find interest in:
   - my [[posts]],
   - some [[notes]] on math and computer science,
-  - a list of [[posts/the-shilllist|software recommendations]],
+  - a list of [[posts/notably-good-software|software recommendations]],
   - a list of [[posts/my-favorite-quotes-in-programming|my favorite quotes in programming]],
   - or another of [[posts/the-booklist|some books I'm reading]].
 
