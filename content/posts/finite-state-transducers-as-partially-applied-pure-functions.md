@@ -12,7 +12,7 @@ Software is great, but sometimes life is too short to write programs bound by pi
 
 High-frequency trading systems exemplify this. When counting latency in nanoseconds, every clock cycle matters. This is why trading applications like [punt-engine](https://github.com/raquentin/punt-engine) are implemented in hardware description languages (HDLs) that "compile" to configurations of registers and digital logic, unlike traditional programming languages that instruct pre-built processors.
 
-This post is primarily a resource for new punt-engine contributors to see first-hand how we describe hardware using a functional (as in pure and declarative, not just "working") HDL. Others can find a quite beautiful application of a typed lambda calculus to map input wires to output wires in described circuits, producing faster applications than would be in C[^1]; $\implies$ Haskell is faster than C (╯°□°)╯︵ ┻━┻.
+This post is primarily a resource for new punt-engine contributors to see first-hand how we describe hardware using a functional (as in pure and declarative, not just "working") HDL. Others can find a quite beautiful application of a typed lambda calculus to map input wires to output wires in described circuits, producing faster applications than would be in C[^1] $\implies$ Haskell is faster than C (╯°□°)╯︵ ┻━┻.
 
 ## Finite state machines
 
