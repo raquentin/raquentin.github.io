@@ -1,12 +1,12 @@
 ---
-title: Complexity Theory
+title: Complexity theory
 date: 2024-04-03
 tags:
   - math
   - dsa
   - complexity
 ---
-Complexity theory reiterates on concepts from [[satisfiability|Satisfiability]] and [[np-completeness|NP-Completeness]].
+Complexity theory reiterates on concepts from [[satisfiability|satisfiability]] and [[np-completeness|NP-completeness]].
 ## NP
 We define a **decision problem** as a problem where given an input $I$, we output either True or False depending on if there exists a solution matching the problem's requirements.
 

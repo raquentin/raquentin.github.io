@@ -1,5 +1,5 @@
 ---
-title: Longest Sequences
+title: Longest sequences
 date: 2024-03-08
 tags:
   - dp
@@ -7,9 +7,9 @@ tags:
   - linalg
 ---
 
-These are a type of [[dynamic-programming|Dynamic Programming]] problem where we're looking for common sequences of subelements within two or more elements. Most commonly, chars within a string.
+These are a type of [[dynamic-programming|dynamic programming]] problem where we're looking for common sequences of subelements within two or more elements. Most commonly, chars within a string.
 
-## Longest Common Substring
+## Longest common substring
 Given two strings $a_1$, $a_2$, return the largest substring present in both.
 
 ### Solution
@@ -50,7 +50,7 @@ def lcsubstring(x, y):
 
 Considering the problem in terms of suffices is easier than in substrings. The table stores suffix lengths, and the longest suffix of a prefix is the longest substring.
 
-## Longest Common Subsequence
+## Longest common subsequence
 Take the example $x =$ "abcbdab", $y$ = "bdcaba". Subsequences are not contiguous, so for the example, subsequences "bcba" and "bdab" are valid.
 Let $X = x_1,..,x_m$, $Y = y_1, .., y_n$, $Z = z_1, .., z_k$ where $Z$ is the longest common subsequence of $X$ and $Y$. Then if $x_m = y_n$, $z_k = x_m = y_n$ and $z_1, .., z_{k-1}$ is the longest common subsequence. If $x_m \neq y_n$, then $Z_k \neq X_m$ or $Z_k \neq Y_n$ and $Z$ is still the longest common subsequence.
 
@@ -83,7 +83,7 @@ def lcs(x, y):
 ```
 
 The runtime here is $n \times m$ because of the table, where $n = |x|$ and $m = |y|$.
-## Longest Palindromic Subsequence
+## Longest palindromic subsequence
 Suppose you have as input one string $x = a_1, .., a_n$ and we want to find the longest palindromic subsequence. This is the same as $lcs(a, a.reverse())$.
 
 ### Solution

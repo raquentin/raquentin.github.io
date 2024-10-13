@@ -1,5 +1,5 @@
 ---
-title: Dynamic Programming
+title: Dynamic programming
 date: 2024-03-07
 tags:
   - dp
@@ -37,7 +37,7 @@ Essentially every DP solution involves:
 - base case
 - filling memory structure using recurrence
 	- $dp[i] = dp[i-1] + dp[i-2]$ in this example
-## Staircase Problem
+## Staircase problem
 Suppose you have $n$ stair steps. You can leap one, two, or three steps at a time. What is the number of combinations that you could reach step $n$?
 ### Solution
 - Create an array $T[0..n]$ where $T[i]$ represents the number of ways to reach step $i$. 
@@ -59,7 +59,7 @@ def numways(n):
 
 	return dp[n]
 ```
-## Add/Multiply Problem
+## Add/multiply problem
 ### Problem
 Suppose you had two operations: add one, and multiply by two. How many operations does it take to get from 0 to some $k$?
 ### Solution
@@ -91,7 +91,7 @@ def minop(k):
 	return dp[k]
 ```
 
-## The House Robber Problem
+## The house robber problem
 House robber. Given an array of houses with values $H = [h_{1}..h_{n}]$, you want to rob them, but you can't rob two adjacent houses or alarms will go off. What is the maximum amount you can steal?
 ### Solution
 - Define array $T[0..n]$ with $T[i]$ = max we can steal from houses $0..i$. The base cases are that $T[0] = H[0], T[1] = max(H[0], H[1])$.
@@ -111,7 +111,7 @@ def houserobber(H):
 	return dp[n-1]
 ```
 
-## Counting Paths Problem
+## Counting paths problem
 Given $n,m$, what is the number of paths through an $n \times m$ grid from (1,1) to ($n,m$) if you can only go down and right?
 ### Solution
 - Define array $T[1..n][1..m]$ where $T[i][j]$ is the number of paths from (1,1) to ($i, j$).
@@ -137,7 +137,7 @@ def count_paths(n, m):
 	return dp[n][m]
 ```
 
-## Counting Paths, But Now With Bombs
+## Counting paths, but now with bombs
 Find the number of paths to reach cell (n, m). Additionally, the grid has bombs, denoted by $bombs[i][j] = True$. Find the number of paths from (0,0) to ($n, m$) such that no bombs are traversed.
 ### Solution
 - Define array $T[1..n][1..m]$ where $T[i][j]$ is the number of paths from $(1,1)$ to $(i, j)$.

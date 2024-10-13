@@ -27,7 +27,7 @@ $$
 \end{equation}
 $$
 
-## The Division Theorem
+## The division theorem
 
 If $a, b$ are integers such that $b > 0$, then there are unique integers $q, r$ such that $a = bq + r$, with $0 <= r < b$.
 

@@ -1,5 +1,5 @@
 ---
-title: The Booklist
+title: The booklist
 date: 2024-03-24
 tags:
   - swe
@@ -8,16 +8,16 @@ tags:
 
 ## Backlog
 - **Designing Data-Intensive Applications** by Martin Kleppmann
-- **The Science of Functional Programming** by Sergei Winitzki
 - **The Theory of Computation** by Michael Sipser
 - **Category Theory for Programmers** by Bartosz Milewski
 - **Practical SQL** by Anthony DeBarros
 - **The Book of Kubernetes** by Alan Hohn
+- **Static Program Analysis** by Andres Møller and Michael Schwartzbach
 
-## In Progress
+## In progress
 - **Haskell Programming from First Principles** by Christopher Allen and Julie Moronuki
 - **Retrocomputing with Clash: Haskell for FPGA Hardware Design** by Gergo Erdi
-- **Static Program Analysis** by Andres Møller and Michael Schwartzbach
+- **Parallel and Concurrent Programming in Haskell** by Simon Marlow
 - **Elementary Number Theory** by James Strayer
 - **Computer Systems: An Integrated Approach to Arch and OS** by Umakishore Ramachandran and William Leahy
 
@@ -25,6 +25,7 @@ tags:
 
 ### 2024
 
+- **Getting Started with FPGAs** by Russell Merrick
 - **Rust for Rusteceans** by Jon Gjengset
 - **100 Go Mistakes and How to Avoid Them** by Teiva Harsanyi
 - **Learn Go With Tests** by Chris James

@@ -1,5 +1,5 @@
 ---
-title: My Favorite Quotes in Programming
+title: My favorite quotes in programming
 date: 2024-03-24
 tags:
   - sw
@@ -22,7 +22,7 @@ tags:
 > \- Robin Milner
 
 
-## Honorable Mentions: The Worst Quotes in Programming
+## Honorable mentions: the worst quotes in programming
 
 > "Done right, a compiler should be able to figure out type automatically. It's not that hard." \
 > \- Elon Musk

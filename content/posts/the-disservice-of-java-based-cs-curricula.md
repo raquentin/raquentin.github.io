@@ -1,5 +1,5 @@
 ---
-title: The Disservice of Java-based Computer Science Curricula
+title: The disservice of java-based computer science curricula
 date: 05-08-2024
 draft: true
 tags:

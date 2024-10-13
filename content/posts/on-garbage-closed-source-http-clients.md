@@ -1,5 +1,5 @@
 ---
-title: "On Garbage Closed-Source HTTP Clients"
+title: "On garbage closed-source HTTP clients"
 date: 2024-08-19
 tags:
   - sw
@@ -32,9 +32,9 @@ Why do you need to:
 
 just to send an HTTP request that's calling into `libcurl` anyways?
 
-## You Don't
+## You don't
 
-I got home and started building [[https://github.com/raquentin/raquest|Raquest]], a minimal HTTP client that runs requests from `.raq` files. The goal is to provide an experience similar to storing `curl` commands in bash files, but with better errors, json support, and other features. No need for a UI, account, or internet connection. Learn the `.raq` syntax in a few minutes, write your request, `git add` it and go on with your day.
+I got home and started building [[https://github.com/raquentin/raquest|raquest]], a minimal HTTP client that runs requests from `.raq` files. The goal is to provide an experience similar to storing `curl` commands in bash files, but with better errors, json support, and other features. No need for a UI, account, or internet connection. Learn the `.raq` syntax in a few minutes, write your request, `git add` it and go on with your day.
 
 ## Conclusion
 

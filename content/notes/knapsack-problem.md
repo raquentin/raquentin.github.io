@@ -1,11 +1,11 @@
 ---
-title: Knapsack Problem
+title: Knapsack problem
 date: 2024-03-08
 tags:
   - dp
   - dsa
 ---
-Knapsack is a core problem to [[dynamic-programming|Dynamic Programming]]. It's easy to understand, but hard to solve.
+Knapsack is a core problem in [[dynamic-programming|dynamic programming]]. It's easy to understand, but hard to solve.
 
 Suppose you are given $n$ items $(v_i, w_i)$ where $v_i$ is the value of item $i$ and $w_i$ is the weight of item $i$. You have capacity $W$. Your goal is to maximize the value of items subject to having the sum of the weights be less than or equal to the capacity.
 
@@ -23,7 +23,7 @@ T[i, j] =
 \end{cases}
 \end{equation}
 $$
-In the [[chain-matrix-multiplication|Chain Matrix Multiplication]] problem, we have a minimum over some things. Here, we have a maximum over some things. We're not going to end up finding the items we've used using this table directly. Like in the chain matrix, all it requires is storing pointers to choices we made. This variant of the knapsack is the 0-1 Knapsack since you can choose either 0 or 1 amounts of any item.
+In the [[chain-matrix-multiplication|chain matrix multiplication]] problem, we have a minimum over some things. Here, we have a maximum over some things. We're not going to end up finding the items we've used using this table directly. Like in the chain matrix, all it requires is storing pointers to choices we made. This variant of the knapsack is the 0-1 Knapsack since you can choose either 0 or 1 amounts of any item.
 
 ### Pseudocode
 ```python

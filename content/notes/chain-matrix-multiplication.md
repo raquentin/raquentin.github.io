@@ -1,5 +1,5 @@
 ---
-title: Chain Matrix Multiplication
+title: Chain matrix multiplication
 date: 2024-03-07
 tags:
   - dp
@@ -22,7 +22,7 @@ Given two matrices of dimensions $(d_0  \times d_1)$ and $(d_1 \times d_2)$, we 
 - $((A(BC))D) = 20 · 1 · 10 + 50 · 20 · 10 + 50 · 10 · 100 = 60200$
 - $((AB)(CD)) = 50 · 20 · 1 + 1 · 10 · 100 + 50 · 1 · 100 = 7000$
 
-This discrepancy allows us to optimize. The number of possible associations grows exponentially, making search non-trivial. The number of parantheticalizations follows the Catalan numbers, which grow $\Omega(4^{n}/n^{3/2})$. The greedy approach won't consistently yield the best answer, so we'll need [[dynamic-programming|Dynamic Programming]] for this one.
+This discrepancy allows us to optimize. The number of possible associations grows exponentially, making search non-trivial. The number of parantheticalizations follows the Catalan numbers, which grow $\Omega(4^{n}/n^{3/2})$. The greedy approach won't consistently yield the best answer, so we'll need [[dynamic-programming|dynamic programming]] for this one.
 
 ## Algorithm
 We can trivially create trees for these associations where the children are the left and right terms, and the parent is the expression.

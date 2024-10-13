@@ -1,5 +1,5 @@
 ---
-title: The Well-Ordering Property
+title: The well-ordering property
 date: 2024-08-22
 tags:
   - math
@@ -8,7 +8,7 @@ tags:
 
 The Well-Ordering Property asserts that every nonempty set of positive integers has a least element. This is obvious, but still has high util in proving theorems.
 
-## Mathematical Induction
+## Mathematical induction
 
 We can prove the principle of mathematical induction, that a set of positive integers containing the number 1 and the number $n + 1$ whenever it contains $n$ must be the set of all positive integers, using the well-ordering property.
 
@@ -24,7 +24,7 @@ Let's use this strat to establish a formula for the sum of the terms of a geomet
 
 *Ex*: The numbers $5, -15, 45, -135, ..$ form a geometric progression with $a = 5, r = -3$.
 
-## Summation Notation
+## Summation notation
 
 Summation notation is a common way to denote sums. The following notation represents the sum of the real numbers $a_1, a_2, .., a_n$:
 

@@ -1,5 +1,5 @@
 ---
-title: NP-Completeness
+title: NP-completeness
 date: 2024-03-18
 tags:
   - math
@@ -9,7 +9,7 @@ tags:
 
 Given a problem, there may exist any number of upper and lower bounds for solving it. The lower bounds can involve deep mathematical cross-problem relationships.
 
-## An Introduction
+## Introduction
 Given an unsorted list of integers, return the list of indices as if it were sorted.
 
 A potential solution: We have an obvious upper bound on sorting. In $O(nlogn)$ time, we can sort the array, keep track of the indicies and return them. But can we do faster? Is there some $o(nlogn)$ algorithm?
