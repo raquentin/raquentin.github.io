@@ -12,7 +12,7 @@ export default ((opts?: Options) => {
       <footer class={`${displayClass ?? ""}`}>
         <hr />
         <p>
-          A monad is just a monoid in the category of endofunctors. What's the problem?
+          RISC architecture is gonna change everything.
         </p>
         <ul>
           {Object.entries(links).map(([text, link]) => (
