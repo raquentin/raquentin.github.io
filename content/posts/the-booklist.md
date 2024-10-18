@@ -7,7 +7,8 @@ tags:
 ---
 
 ## Backlog
-- **Designing Data-Intensive Applications** by Martin Kleppmann
+- **TCP/IP Illustrated: The Protocols** by Kevin Fall and W. Stevens
+- **Operating Systems: Three Easy Pieces** by 
 - **The Theory of Computation** by Michael Sipser
 - **Category Theory for Programmers** by Bartosz Milewski
 - **Practical SQL** by Anthony DeBarros
@@ -18,8 +19,8 @@ tags:
 - **Haskell Programming from First Principles** by Christopher Allen and Julie Moronuki
 - **Retrocomputing with Clash: Haskell for FPGA Hardware Design** by Gergo Erdi
 - **Parallel and Concurrent Programming in Haskell** by Simon Marlow
-- **Elementary Number Theory** by James Strayer
 - **Computer Systems: An Integrated Approach to Arch and OS** by Umakishore Ramachandran and William Leahy
+- **Designing Data-Intensive Applications** by Martin Kleppmann
 
 ## Done
 
