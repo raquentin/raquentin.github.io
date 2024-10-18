@@ -16,6 +16,7 @@ tags:
 - **Static Program Analysis** by Andres Møller and Michael Schwartzbach
 
 ## In progress
+- **Logical Foundations** by Benjamin Pierce and thirty-two others
 - **Haskell Programming from First Principles** by Christopher Allen and Julie Moronuki
 - **Retrocomputing with Clash: Haskell for FPGA Hardware Design** by Gergo Erdi
 - **Parallel and Concurrent Programming in Haskell** by Simon Marlow
