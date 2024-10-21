@@ -8,8 +8,7 @@ You may find interest in:
   - my [[posts]],
   - some [[notes]] on math and computer science,
   - a list of [[posts/the-booklist|books I'm reading]],
-  - a list of [[posts/notably-good-software|software recommendations]],
-  - or some of [[posts/my-favorite-quotes-in-programming|my favorite quotes in programming]].
+  - or a list of [[posts/notably-good-software|software recommendations]].
 
 Current work priority queue:
   - [high-frequency trading on FPGAs via Haskell](https://github.com/raquentin/punt-engine),
