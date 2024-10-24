@@ -8,7 +8,8 @@ tags:
 
 ## Backlog
 - **TCP/IP Illustrated: The Protocols** by Kevin Fall and W. Stevens
-- **Operating Systems: Three Easy Pieces** by 
+- **Linux Kernel Development** by Robert Love
+- **Operating Systems: Three Easy Pieces** by Andrea and Remzi Arpaci-Dusseau
 - **The Theory of Computation** by Michael Sipser
 - **Category Theory for Programmers** by Bartosz Milewski
 - **Practical SQL** by Anthony DeBarros
@@ -20,7 +21,7 @@ tags:
 - **Haskell Programming from First Principles** by Christopher Allen and Julie Moronuki
 - **Retrocomputing with Clash: Haskell for FPGA Hardware Design** by Gergo Erdi
 - **Parallel and Concurrent Programming in Haskell** by Simon Marlow
-- **Computer Systems: An Integrated Approach to Arch and OS** by Umakishore Ramachandran and William Leahy
+- **Computer Systems: An Integrated Approach to Arch and OS** by Ramachandran and Leahy
 - **Designing Data-Intensive Applications** by Martin Kleppmann
 
 ## Done

@@ -1,10 +1,10 @@
 ---
-title: The disservice of java-based computer science curricula
+title: A critique of Java as a basis for undergraduate computer science curricula
 date: 05-08-2024
 draft: true
 tags:
-  - cs
   - pl
+  - uni
 ---
 
 Java hate [transcends decades](https://www.joelonsoftware.com/2005/12/29/the-perils-of-javaschools-2/). I actually enjoy object-oriented programming on occasion. The problem is never knowing functions outside of association with a data type.
@@ -60,8 +60,8 @@ sasdf
 
 ### More rigor in math and computer science
 
-Less calculus, history, and free electives. More algebra, combinatorics, and automata. The best foundation to be great is technical knowledge from a physics side of electricity and from a math side of algebra. Combining the physics that allow computers to exist and the math that proves why programming langauges work.
+Less calculus, biology, and free electives. As I writing this currently, I am accepting a zero for a homework assignment on the intricacies of plant sex. More algebra, combinatorics, and automata. The best foundation to be great is technical knowledge from a physics side of electricity and from a math side of algebra. Combining the physics that allow computers to exist and the math that proves why programming langauges work.
 
 ## Conclusion
 
-But seriously, why can't we just go back to reading the Structue and Interpretation of Computer Programs?
+In all, I am uncertain as to why we have stopped reading Structue and Interpretation of Computer Programs.
