@@ -7,7 +7,7 @@ tags:
 
 > "What's your favorite C++20 feature?"
 
-is one of my favorite interview questions, generic to the version one says they use. It gauges how often someone programs C++ on their computer (not just on Leetcode), and how well they understand the ecosystem they program in. I think there's something to be said for a programmer that upgraded to C++20 specifically to use [[#modules|Modules]] to optimize away impossible code branches, especially compared to a programmer who uses whatever C++ version `brew install` fetched at the time[^1].
+is one of my favorite interview questions, generic to the version one says they use. It gauges how often someone programs C++ on their computer (not just on Leetcode), and how well they understand the ecosystem they program in. I think there's something to be said for a programmer that upgraded to C++20 specifically to use [[#modules|Modules]] to optimize away impossible code branches, especially compared to a programmer who uses whatever C++ version `brew install` fetched at the time.
 
 In many examples below, I'll be using snippets from [[https://github.com/raquentin/raquest|Raquest]], a domain-specific language to [[on-garbage-closed-source-http-clients|replace Postman and Insomnia]].
 
@@ -495,7 +495,7 @@ void paint(Color c) {
 
 `std::expected` is similar to `std::optional`, but allows you to choose between a success value or an error value, not just a success value or `std::nullopt`.
 
-Consider the same ThreadPool example from [#modules|Modules] above:
+Consider the same ThreadPool example from [[#modules|Modules]] above:
 ```cpp
 std::vector<std::future<
     std::expected<CurlResponse, std::vector<std::unique_ptr<Error>>>>>
@@ -545,5 +545,3 @@ const char* color_to_string(Color c) {
     std::unreachable(); // undefined behavior if we reach here
 }
 ```
-
-[^1]: This question (and hence post) can generalize for any programming language, though it does work better for those with development cycles that resemble C++'s. Ecosystems that tend to use nightly builds (Rust) or are infant (Gleam) won't have as many distinct versions as C++, but it's still a good idea to ask a Rust dev what version they use and perhaps a recent feature of the version they upgraded to.
