@@ -8,8 +8,9 @@ export const sharedPageComponents: SharedLayout = {
   afterBody: [],
   footer: Component.Footer({
     links: {
-      GitHub: "https://github.com/jackyzha0/quartz",
-      "Discord Community": "https://discord.gg/cRFFHYye7t",
+      GitHub: "https://github.com/raquentin/",
+      LinkedIn: "https://linkedin.com/in/raquentin",
+      YouTube: "https://youtube.com/@raquentin/",
     },
   }),
 }
@@ -26,12 +27,45 @@ export const defaultContentPageLayout: PageLayout = {
     Component.PageTitle(),
     Component.MobileOnly(Component.Spacer()),
     Component.Search(),
-    Component.Darkmode(),
-    Component.Explorer(),
+    Component.DesktopOnly(
+      Component.RecentNotes({
+        title: "Recent Posts",
+        limit: 2,
+        filter: (f) =>
+          f.slug!.startsWith("posts/") && (f.slug! !== "posts/index") && (f.slug! !== "posts/the-booklist") && !f.frontmatter?.noindex,
+        linkToMore: "posts/" as SimpleSlug,
+      }),
+    ),
+    Component.DesktopOnly(
+        Component.RecentNotes({
+            title: "Recent Notes",
+            limit: 1,
+            filter: (f) =>
+              f.slug!.startsWith("notes/") && (f.slug! !== "notes/index") && !f.frontmatter?.noindex,
+            linkToMore: "notes/" as SimpleSlug,
+          }),
+    ),
+
+    Component.DesktopOnly(Component.TableOfContents()),
   ],
   right: [
-    Component.Graph(),
-    Component.DesktopOnly(Component.TableOfContents()),
+    Component.Graph({
+      localGraph: {
+        showTags: false,
+      },
+      globalGraph: {
+        showTags: false,
+      },
+    }),
+    Component.DesktopOnly(
+        Component.RecentNotes({
+            title: "Recent Teas",
+            limit: 2,
+            filter: (f) =>
+              f.slug!.startsWith("tea/") && (f.slug! !== "tea/index") && !f.frontmatter?.noindex,
+            linkToMore: "tea/" as SimpleSlug,
+          }),
+    ),
     Component.Backlinks(),
   ],
 }
@@ -43,7 +77,6 @@ export const defaultListPageLayout: PageLayout = {
     Component.PageTitle(),
     Component.MobileOnly(Component.Spacer()),
     Component.Search(),
-    Component.Darkmode(),
     Component.Explorer(),
   ],
   right: [],
