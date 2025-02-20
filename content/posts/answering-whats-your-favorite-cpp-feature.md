@@ -7,7 +7,7 @@ tags:
 
 > "What's your favorite C++20 feature?"
 
-is one of my favorite interview questions, generic to the version one says they use. It gauges how often someone programs C++ on their computer (not just on Leetcode), and how well they understand the ecosystem they program in. I think there's something to be said for a programmer that upgraded to C++20 specifically to use [[#modules|Modules]] to optimize away impossible code branches, especially compared to a programmer who uses whatever C++ version `brew install` fetched at the time.
+is one of my favorite interview questions, generic to the version one says they use. It gauges how often someone programs C++ on their computer (not just on Leetcode), and how well they understand the ecosystem they program in. I think there's something to be said for a programmer that upgraded to C++20 specifically to use [[#modules|Modules]] avoid ODR violations, especially compared to a programmer who uses whatever C++ version `brew install` fetched at the time.
 
 In many examples below, I'll be using snippets from [[https://github.com/raquentin/raquest|Raquest]], a domain-specific language to [[on-garbage-closed-source-http-clients|replace Postman and Insomnia]].
 
