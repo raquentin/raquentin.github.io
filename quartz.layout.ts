@@ -57,14 +57,6 @@ export const defaultContentPageLayout: PageLayout = {
         showTags: false,
       },
     }),
-    Component.DesktopOnly(
-        Component.RecentNotes({
-            title: "Recent Tea & Incense",
-            limit: 3,
-            filter: (f) =>
-              (f.slug!.startsWith("tea/") || f.slug!.startsWith("incense/")) && (f.slug! !== "tea/index") && (f.slug! !== "incense/index") && !f.frontmatter?.noindex,
-          }),
-    ),
     Component.Backlinks(),
   ],
 }
