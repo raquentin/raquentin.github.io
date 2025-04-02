@@ -16,4 +16,4 @@ Current work pq:
   - [изучение русского языка](https://www.linkedin.com/feed/update/urn:li:activity:7155095488885624832/),
   - [the Gleam language and related libraries](https://github.com/gleam-lang/gleam).
 
-For questions, contact via 0x726163650A@0x72617175656E742E696E0A (to ascii).
+Contact via 0x726163650A@0x72617175656E742E696E0A.
