@@ -6,15 +6,14 @@ My name is Race Williams. I'm an American CS undergrad primarily working on prog
 
 You may find interest in:
   - my [[posts]],
-  - my [[tea|tea reviews]],
+  - my [[tea]] and [[incense]] reviews,
   - some [[notes]] on math and computer science,
   - or my [[posts/the-booklist|reading list]].
 
 Current work pq:
-  - [a domain-specific language backended by cURL](https://github.com/raquentin/raquest),
-  - [algorithmic trading on FPGAs with Haskell](https://github.com/raquentin/punt-engine),
-  - [tamagotchi.nvim](https://github.com/raquentin/tamagotchi.nvim),
-  - [изучение русского языка](https://www.linkedin.com/feed/update/urn:li:activity:7155095488885624832/).
-  - and [the Gleam language and related libraries](https://github.com/gleam-lang/gleam),
+  - [hardware modules for FPGA-accelerated trading](https://github.com/raquentin/punt-engine),
+  - [a domain-specific language for web requests](https://github.com/raquentin/raquest),
+  - [изучение русского языка](https://www.linkedin.com/feed/update/urn:li:activity:7155095488885624832/),
+  - [the Gleam language and related libraries](https://github.com/gleam-lang/gleam).
 
-For questions, contact race@raquent.in.
+For questions, contact via 0x726163650A@0x72617175656E742E696E0A (to ascii).
