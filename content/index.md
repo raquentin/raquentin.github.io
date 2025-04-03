@@ -6,8 +6,8 @@ My name is Race Williams. I'm an American CS undergrad primarily working on prog
 
 You may find interest in:
   - my [[posts]],
-  - my [[tea]] and [[incense]] reviews,
   - some [[notes]] on math and computer science,
+  - my [[tea]] and [[incense]] reviews,
   - or my [[posts/the-booklist|reading list]].
 
 Current work pq:
