@@ -184,16 +184,6 @@ export default (() => {
             <meta property="og:image:height" content={fullOptions.height.toString()} />
           </>
         )}
-        <meta property="og:image:url" content={ogImagePath} />
-        {cfg.baseUrl && (
-          <>
-            <meta name="twitter:image" content={ogImagePath} />
-            <meta property="og:image" content={ogImagePath} />
-            <meta property="twitter:domain" content={cfg.baseUrl}></meta>
-            <meta property="og:url" content={socialUrl}></meta>
-            <meta property="twitter:url" content={socialUrl}></meta>
-          </>
-        )}
         <link rel="icon" href={iconPath} />
         <meta name="description" content={description} />
         <meta name="generator" content="Quartz" />
