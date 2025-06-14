@@ -11,24 +11,23 @@ date: 2024-03-24
 - **Static Program Analysis** by Andres Møller and Michael Schwartzbach
 - **Logical Foundations** by Benjamin Pierce and thirty-two others
 - **Compiler Optimizations for Scalable Parallel Systems** by Pande and Agrawal
-- **TCP/IP Illustrated** by W. Richard Stevens
-- **C++ Concurrency in Action** by Anthony Williams
 - **Parallel and Concurrent Programming in Haskell** by Simon Marlow
+- **TCP/IP Illustrated** by W. Richard Stevens
+- **The Little Book of Semaphores** by Allen Downey
+- **C++ Concurrency in Action** by Anthony Williams
 - **Parallel Programming for FPGAs** by Ryan Kastner, Janarbek Matai, and Stephen Neuendorffer
-
+- **Retrocomputing with Clash** by Gergo Erdi
 
 ## In progress
 
-- **Linux Kernel Development** by Robert Love
-- **Introduction to Linear Algebra** by Gilbert Strang
 - **Pearls of Functional Algorithm Design** by Richard Bird
-- **The Little Book of Semaphores** by Allen Downey
-- **Retrocomputing with Clash** by Gergo Erdi
 
 ## Done
 
 ### 2025
 
+- **Linux Kernel Development** by Robert Love
+- **Introduction to Linear Algebra** by Gilbert Strang
 - **Operating Systems: Three Easy Pieces** by Andrea and Remzi Arpaci-Dusseau
 - **xv6** by Russ Cox, Frans Kaashoek, Robert Morris
 - **Principles and Structures of FPGAs** by Hideharu Amano
