@@ -2,8 +2,6 @@
 title: Hi
 ---
 
-My name is Race Williams. I'm an American CS undergrad primarily working on programming languages and developer tools.
-
 You may find interest in:
   - my [[posts]],
   - some [[notes]] on math and computer science,
@@ -16,4 +14,4 @@ Current work pq:
   - [изучение русского языка](https://www.linkedin.com/feed/update/urn:li:activity:7155095488885624832/),
   - [the Gleam language and related libraries](https://github.com/gleam-lang/gleam).
 
-Contact via 0x726163650A@0x72617175656E742E696E0A.
+At the expense of the above, I've recently discovered going outside and am largely inactive in open-source. My email is firstname at domain dot tld.
