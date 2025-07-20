@@ -21,6 +21,7 @@ date: 2024-03-24
 ## In progress
 
 - **Pearls of Functional Algorithm Design** by Richard Bird
+- **Modern C++ Programming Cookbook** by Marius Bancila
 
 ## Done
 
