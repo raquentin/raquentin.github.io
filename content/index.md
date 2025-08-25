@@ -15,4 +15,4 @@ Current work pq:
   - [a domain-specific language for web requests](https://github.com/raquentin/raquest),
   - [the Gleam language and related libraries](https://github.com/gleam-lang/gleam).
 
-I've recently began touching grass and am largely inactive in open-source. My email is firstname at domain dot tld.
+My email is firstname at domain dot tld.

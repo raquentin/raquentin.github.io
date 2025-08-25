@@ -7,21 +7,20 @@ date: 2024-03-24
 
 ## Backlog
 - **Category Theory** by Steve Awodey
-- **Practical SQL** by Anthony DeBarros
 - **Static Program Analysis** by Andres Møller and Michael Schwartzbach
-- **Logical Foundations** by Benjamin Pierce and thirty-two others
 - **Compiler Optimizations for Scalable Parallel Systems** by Pande and Agrawal
 - **Parallel and Concurrent Programming in Haskell** by Simon Marlow
 - **TCP/IP Illustrated** by W. Richard Stevens
-- **The Little Book of Semaphores** by Allen Downey
-- **C++ Concurrency in Action** by Anthony Williams
-- **Parallel Programming for FPGAs** by Ryan Kastner, Janarbek Matai, and Stephen Neuendorffer
 - **Retrocomputing with Clash** by Gergo Erdi
+- **Analysis I** by Terence Tao
 
 ## In progress
 
+- **Introduction to Graph Theory** by Douglas West
+- **Introduction to the Theory of Computation** by Michael Sipser
 - **Pearls of Functional Algorithm Design** by Richard Bird
 - **Modern C++ Programming Cookbook** by Marius Bancila
+- **Mathematical Proofs** by Chartrand, Polimeni, and Zhang
 
 ## Done
 
