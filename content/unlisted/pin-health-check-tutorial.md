@@ -19,8 +19,6 @@ In the tutorial, we'll test these simple features like this (sry font small):
 
 ![[pin-health-flow.png]]
 
-But first, let's learn a bit more ab the project.
-
 ## File structure
 
 To start looking at Pin files, you'll need a local copy of the repository.
