@@ -117,7 +117,7 @@ Open three terminals, you'll need one for each of:
 
 ### Running the frontend
 
-`cd frontend` to enter the frontend subdirectory.
+`cd mobile` to enter the frontend subdirectory.
 
 You've downloaded Node, but node itself needs to download some dependencies for our project (via npm). Run `npm i` to get them.
 
