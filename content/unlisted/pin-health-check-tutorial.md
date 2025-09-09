@@ -24,8 +24,8 @@ In the tutorial, we'll test these simple features like this (sry font small):
 To start looking at Pin files, you'll need a local copy of the repository.
 
 ```bash
-git clone git@github.com:pin-app/pin.git   # clone the files to a folder locally
-git checkout health-check-tutorial         # checkout the version for this tutorial
+git clone https://github.com/pin-app/pin.git  # clone the files to a folder locally
+git checkout health-check-tutorial            # checkout the version for this tutorial
 ```
 
 Now you have the folder locally, let's look into it:
