@@ -9,10 +9,10 @@ You may find interest in:
   - or my [[posts/the-booklist|reading list]].
 
 Current work pq:
+  - [a social app for touching grass](https://github.com/pin-app/pin),
+  - [formally verified Kubernetes](https://github.com/raquentin/coq-k8s),
   - [hardware modules for FPGA-accelerated trading](https://github.com/raquentin/punt-engine),
-  - изучение русского языка,
-  - 学习中文
-  - [a domain-specific language for web requests](https://github.com/raquentin/raquest),
-  - [the Gleam language and related libraries](https://github.com/gleam-lang/gleam).
+  - 学中文,
+  - учить русский.
 
 My email is firstname at domain dot tld.

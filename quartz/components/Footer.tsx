@@ -14,7 +14,7 @@ export default ((opts?: Options) => {
     return (
       <footer class={`${displayClass ?? ""}`}>
         <p>
-          RISC architecture is gonna change everything.
+          A program is a proof.
         </p>
         <ul>
           {Object.entries(links).map(([text, link]) => (

@@ -2,8 +2,6 @@
 title: The booklist
 date: 2024-03-24
 ---
-> The ancients had only the books which they themselves wrote, but we have all their books and moreover all those which have been written from the beginning until our time.… Hence we are like a dwarf perched on the shoulders of a giant. The former sees further than the giant, not because of his own stature, but because of the stature of his bearer. Similarly, we see more than the ancients, because our writings, modest as they are, are added to their great works. \
-> -- William of Conches
 
 ## Backlog
 - **Category Theory** by Steve Awodey
