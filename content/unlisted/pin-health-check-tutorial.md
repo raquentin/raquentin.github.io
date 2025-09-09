@@ -1,6 +1,8 @@
 ---
 title: Pin health check tutorial
 date: 08-08-2025
+tags:
+  - pin
 ---
 
 Hi! Again welcome to Pin and thanks a lot for choosing this proj, we're glad to have you.
@@ -95,7 +97,7 @@ Understanding that the repo contains both code and build scripts for the fronten
 The diagram below models interactions between the three discrete services powering Pin in the health check example mentioned above. `hc` means health check.
 ![[pin-basic-arch.png]]
 
-Multiple indepdenent programs power Pin. The most obvious one is the mobile app. The TypeScript mobile apps contains UI components and functions for performing web and system requests. React Native compiles transpiles our ts codebase to two runnable programs: one in Swift for iOS devices, and another in Java for android devices. The appeal of React Native is that it lets us write one codebase to distribute to both platforms.
+Multiple indepdenent programs power Pin. The most obvious one is the mobile app. The TypeScript mobile app contains UI components and functions for performing web and system requests. React Native compiles transpiles our ts codebase to two runnable programs: one in Swift for iOS devices, and another in Java for android devices. The appeal of React Native is that it lets us write one codebase to distribute to both platforms.
 
 Second, we have the backend. The backend is an entirely separate service from the frontend; the frontend runs on end user mobile devices, the backend runs on our own server(s) and actually powers the app. When a user clicks the "Check Health" button, (or later loads the Pin feed, makes a pin on the map, etc), the button evokes an event handler function that makes a request to the backend to get the relevant data. The backend collects requests from all end users and performs them in parallel.
 
