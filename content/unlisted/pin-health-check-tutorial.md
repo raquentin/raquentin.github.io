@@ -25,6 +25,7 @@ To start looking at Pin files, you'll need a local copy of the repository.
 
 ```bash
 git clone https://github.com/pin-app/pin.git  # clone the files to a folder locally
+cd pin
 git checkout health-check-tutorial            # checkout the version for this tutorial
 ```
 
@@ -121,7 +122,7 @@ Open three terminals, you'll need one for each of:
 
 You've downloaded Node, but node itself needs to download some dependencies for our project (via npm). Run `npm i` to get them.
 
-`npm run start` to run the Expo start script. After a bit you should see a QR code inviting you to load the Pin app on your actual phone. Download the Expo app from the app store to do that, you'll need the app first to scan the qr code. You can also use an emulator on your computer via Simulator on macOS or Android Studio elsewhere.
+`npm run start:<linux/mac/win>` to run the Expo start script. After a bit you should see a QR code inviting you to load the Pin app on your actual phone. Download the Expo app from the app store to do that, you'll need the app first to scan the qr code. You can also use an emulator on your computer via Simulator on macOS or Android Studio elsewhere.
 
 You've opened the app now. Navigate the the Maps page, and you should see a failed health check. This is failing because the backend has not ran yet.
 
