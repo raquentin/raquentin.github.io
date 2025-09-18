@@ -2,7 +2,7 @@
 title: Reducing NP-hard graph problems
 date: 2024-04-03
 tags:
-  - dsa
+  - algorithms
   - complexity
 ---
 ## Independent set

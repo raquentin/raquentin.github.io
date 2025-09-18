@@ -1,6 +1,6 @@
 ---
 title: Pin health check tutorial
-date: 08-08-2025
+date: 09-08-2025
 tags:
   - pin
 ---

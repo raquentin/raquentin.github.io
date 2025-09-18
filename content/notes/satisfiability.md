@@ -2,7 +2,7 @@
 title: Satisfiability
 tags:
   - math
-  - dsa
+  - algorithms
   - complexity
 date: 2024-03-23
 ---

@@ -3,7 +3,7 @@ title: Longest sequences
 date: 2024-03-08
 tags:
   - dp
-  - dsa
+  - algorithms
   - linalg
 ---
 

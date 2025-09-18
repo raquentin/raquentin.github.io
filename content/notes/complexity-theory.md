@@ -3,7 +3,7 @@ title: Complexity theory
 date: 2024-04-03
 tags:
   - math
-  - dsa
+  - algorithms
   - complexity
 ---
 Complexity theory reiterates on concepts from [[satisfiability|satisfiability]] and [[np-completeness|NP-completeness]].

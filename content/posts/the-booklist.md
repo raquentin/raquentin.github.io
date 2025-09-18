@@ -1,5 +1,5 @@
 ---
-title: The booklist
+title: Booklist
 date: 2024-03-24
 ---
 
@@ -16,9 +16,7 @@ date: 2024-03-24
 
 - **Introduction to Graph Theory** by Douglas West
 - **Introduction to the Theory of Computation** by Michael Sipser
-- **Pearls of Functional Algorithm Design** by Richard Bird
 - **Modern C++ Programming Cookbook** by Marius Bancila
-- **Mathematical Proofs** by Chartrand, Polimeni, and Zhang
 
 ## Done
 
