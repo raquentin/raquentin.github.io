@@ -2,7 +2,6 @@
 title: Max flow
 date: 2025-09-17
 tags:
-  - dp
   - algorithms
   - graph
 ---
