@@ -8,10 +8,10 @@ You may find interest in:
   - or my [[posts/the-booklist|reading list]].
 
 Current work pq:
-  - [a social app for touching grass](https://github.com/pin-app/pin),
-  - [formally verified Kubernetes](https://github.com/raquentin/coq-k8s),
+  - [a static analysis tool for debloating Next.js apps](https://github.com/raquentin/nectar),
+  - [a social app for grass touchers](https://github.com/pin-app/pin),
+  - [hardware modules for high-freq trading](https://github.com/raquentin/punt-engine),
   - 学中文,
-  - [hardware modules for FPGA-accelerated trading](https://github.com/raquentin/punt-engine),
   - учить русский.
 
 My email is firstname at domain dot tld.
