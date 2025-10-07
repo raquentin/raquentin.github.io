@@ -5,7 +5,6 @@ date: 2024-03-24
 
 ## Backlog
 - **Category Theory** by Steve Awodey
-- **Static Program Analysis** by Andres Møller and Michael Schwartzbach
 - **Compiler Optimizations for Scalable Parallel Systems** by Pande and Agrawal
 - **Parallel and Concurrent Programming in Haskell** by Simon Marlow
 - **TCP/IP Illustrated** by W. Richard Stevens
@@ -22,6 +21,7 @@ date: 2024-03-24
 
 ### 2025
 
+- **Static Program Analysis** by Andres Møller and Michael Schwartzbach
 - **Linux Kernel Development** by Robert Love
 - **Introduction to Linear Algebra** by Gilbert Strang
 - **Operating Systems: Three Easy Pieces** by Andrea and Remzi Arpaci-Dusseau
