@@ -1,15 +1,17 @@
 ---
-title: Home
+title: ₍^. .^₎⟆
 ---
+
+Hi. I write about discrete math, systems programming, and open software.
 
 You may find interest in:
   - my [[posts]],
-  - some [[notes]] on math and computer science,
+  - some [[notes]] on math & cs,
   - or my [[unlisted/reading-list|reading list]].
 
 Currently prioritized projects:
-  - учить русский,
   - [gateware modules for high-freq trading](https://github.com/raquentin/punt-engine),
   - [a static analysis tool for debloating Next.js apps](https://github.com/raquentin/nectar),
+  - учить русский.
 
-I graduated from Georgia Tech in 2025. My email is predictable.
+My email is predictable, please do reach out.
