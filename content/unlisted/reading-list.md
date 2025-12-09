@@ -1,9 +1,7 @@
 ---
-title: Booklist
+title: Reading list
 date: 2024-03-24
 ---
-
-Every significant text I've read in chronological order.
 
 ## Backlog
 - **Category Theory** by Steve Awodey
@@ -16,7 +14,7 @@ Every significant text I've read in chronological order.
 
 ## In progress
 
-- **«Семья шпиона»** Тацуи Эндо 🪆
+- **«Семья шпиона»** Тацуи Эндо
 - **Modern C++ Programming Cookbook** by Marius Bancila
 
 ## Done
@@ -53,5 +51,4 @@ Every significant text I've read in chronological order.
 - 🥇,🥈,🥉: top texts of the year
 - 🐝: was a textbook for a class
 - 🎧: audiobook
-- 🪆: in Russian
 - 🗑️: unrecommendable
