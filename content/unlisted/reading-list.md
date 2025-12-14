@@ -21,6 +21,7 @@ date: 2024-03-24
 
 ### 2025
 
+- **Company** by Samuel Beckett
 - **Introduction to the Theory of Computation** by Michael Sipser 🐝
 - **Introduction to Graph Theory** by Douglas West 🐝
 - **Goodbye, Eri** by Tatsuki Fujimoto 🥈
