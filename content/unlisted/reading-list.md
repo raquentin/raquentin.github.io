@@ -1,6 +1,8 @@
 ---
 title: Reading list
 date: 2024-03-24
+tags:
+  - личное
 ---
 
 ## Backlog
