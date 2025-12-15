@@ -3,7 +3,7 @@ title: Max flow
 date: 2025-09-17
 tags:
   - algorithms
-  - graph
+  - graphtheory
 ---
 
 Consider a directed graph $G$ with arbitrary vertices $s$ and $t$. Thinking of the weight of each edge as a capacity, max flow asks for the maximum amount we can push from $s$ (the source) to $t$ (the sink). The "liquid in pipes" metaphor is pretty useless, but there are many seemingly difficult problems that are made obvious via a mapping to max-flow.
