@@ -3,7 +3,6 @@ title: "On planarity"
 date: 12-15-2025
 tags:
   - graphtheory
-  - личное
 ---
 
 and plane graphs.
