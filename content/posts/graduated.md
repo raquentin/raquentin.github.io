@@ -1,6 +1,7 @@
 ---
 title: Graduated
 date: 12-14-2025
+draft: true
 tags:
   - личное
 ---
