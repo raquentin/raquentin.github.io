@@ -7,11 +7,12 @@ tags:
 
 ### In progress
 
-- **Designing Software Architectures** by Humberto Cervantes, Rick Kazma
+- **Crime and Punishment** by Fyodor Dostoevsky
 - **The Staff Engineer's Path** by Tanya Reilly
 
 ### 2026
 
+- **Fathers and Sons** by Ivan Turgenev 🎧
 - **I Had That Same Dream Again** by Yoru Sumino
 - **In the Penal Colony** by Franz Kafka
 
@@ -50,6 +51,7 @@ tags:
 
 ### Backlog
 - **Category Theory** by Steve Awodey
+- **Designing Software Architectures** by Humberto Cervantes, Rick Kazma
 - **Compiler Optimizations for Scalable Parallel Systems** by Pande, Agrawal
 - **Parallel and Concurrent Programming in Haskell** by Simon Marlow
 - **TCP/IP Illustrated** by W. Richard Stevens
