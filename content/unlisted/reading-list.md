@@ -7,11 +7,15 @@ tags:
 
 ### In progress
 
-- **Crime and Punishment** by Fyodor Dostoevsky
+- **The Brothers Karamazov** by Fyodor Dostoevsky
 - **The Staff Engineer's Path** by Tanya Reilly
 
 ### 2026
 
+- **State and Revolution** by Vladimir Lenin
+- **The Prince** by Niccolo Machiavelli
+- **Discourse on Colonialism** by Aimé Césaire
+- **The Communist Manifesto** by Karl Marx, Friedrich Engels
 - **Fathers and Sons** by Ivan Turgenev 🎧
 - **I Had That Same Dream Again** by Yoru Sumino
 - **In the Penal Colony** by Franz Kafka
@@ -50,6 +54,7 @@ tags:
 - **The Rust Programming Language** by Steve Klabnik, Carol Nichols
 
 ### Backlog
+- **Crime and Punishment** by Fyodor Dostoevsky
 - **Category Theory** by Steve Awodey
 - **Designing Software Architectures** by Humberto Cervantes, Rick Kazma
 - **Compiler Optimizations for Scalable Parallel Systems** by Pande, Agrawal
