@@ -12,6 +12,7 @@ tags:
 
 ### 2026
 
+- **Meditations 1 & 2** by Descartes
 - **The Myth of Sisyphus** by Albert Camus
 - **What Is It Like to Be a Bat?** by Thomas Nagel
 - **State and Revolution** by Vladimir Lenin
