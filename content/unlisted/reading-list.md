@@ -12,6 +12,8 @@ tags:
 
 ### 2026
 
+- **The Myth of Sisyphus** by Albert Camus
+- **What Is It Like to Be a Bat?** by Thomas Nagel
 - **State and Revolution** by Vladimir Lenin
 - **The Prince** by Niccolo Machiavelli
 - **Discourse on Colonialism** by Aimé Césaire
