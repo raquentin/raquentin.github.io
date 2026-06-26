@@ -1,0 +1,137 @@
+*, *::before, *::after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+:root {
+	--bg: #0f0f0f;
+	--text: #d8d8d8;
+	--text-muted: #555;
+	--text-dim: #444;
+	--max-width: 680px;
+	--font-sans: system-ui, -apple-system, sans-serif;
+	--font-mono: 'IBM Plex Mono', 'Courier New', monospace;
+	--font-serif: 'Spectral', Georgia, serif;
+}
+
+html {
+	background: var(--bg);
+	color: var(--text);
+	font-family: var(--font-sans);
+	font-size: 14px;
+	line-height: 1.7;
+}
+
+body {
+	min-height: 100vh;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+a:hover {
+	color: var(--text);
+	text-decoration: underline;
+}
+
+/* Prose styles */
+.prose h1,
+.prose h2,
+.prose h3,
+.prose h4 {
+	margin-top: 2rem;
+	margin-bottom: 0.5rem;
+	line-height: 1.3;
+}
+
+.prose p {
+	margin-bottom: 1rem;
+}
+
+.prose ul,
+.prose ol {
+	margin-bottom: 1rem;
+	padding-left: 1.5rem;
+}
+
+.prose li {
+	margin-bottom: 0.25rem;
+}
+
+.prose blockquote {
+	border-left: 2px solid var(--text-dim);
+	padding-left: 1rem;
+	margin: 1rem 0;
+	color: var(--text-muted);
+}
+
+.prose code {
+	font-family: var(--font-mono);
+	font-size: 0.9em;
+	background: #1a1a1a;
+	padding: 0.1em 0.3em;
+	border-radius: 2px;
+}
+
+.prose pre {
+	background: #1a1a1a;
+	padding: 1rem;
+	overflow-x: auto;
+	margin: 1rem 0;
+	border-radius: 2px;
+}
+
+.prose pre code {
+	background: none;
+	padding: 0;
+}
+
+.prose a {
+	text-decoration: underline;
+	text-underline-offset: 2px;
+}
+
+.prose .katex-display {
+	overflow-x: auto;
+	overflow-y: hidden;
+	padding: 0.5rem 0;
+}
+
+/* Footnotes & Sources — two separate sections */
+.prose .footnotes {
+	margin-top: 3rem;
+	padding-top: 1rem;
+	border-top: 1px solid #222;
+	font-size: 0.85em;
+	color: var(--text-muted);
+}
+
+.prose .footnotes + .footnotes {
+	margin-top: 1.5rem;
+	border-top: none;
+	padding-top: 0;
+}
+
+.prose .footnote-label {
+	font-size: 0.8em;
+	font-weight: 500;
+	color: var(--text-dim);
+	text-transform: uppercase;
+	letter-spacing: 0.08em;
+	margin-bottom: 0.5rem;
+}
+
+.prose .footnotes ol {
+	padding-left: 1.5rem;
+}
+
+.prose .footnotes li {
+	margin-bottom: 0.4rem;
+}
+
+.prose .footnotes a {
+	color: var(--text-muted);
+}
