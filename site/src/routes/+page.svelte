@@ -50,7 +50,6 @@
 	}
 
 	.site-name {
-		font-family: var(--font-serif);
 		font-size: 1.6rem;
 		font-weight: 600;
 		letter-spacing: -0.01em;

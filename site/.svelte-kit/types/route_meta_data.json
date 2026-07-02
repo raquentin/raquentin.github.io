@@ -1,0 +1,23 @@
+{
+	"/": [
+		"src/routes/+page.server.ts",
+		"src/routes/+layout.ts",
+		"src/routes/+layout.ts"
+	],
+	"/essays/[slug]": [
+		"src/routes/essays/[slug]/+page.server.ts",
+		"src/routes/+layout.ts"
+	],
+	"/notes": [
+		"src/routes/notes/+page.server.ts",
+		"src/routes/+layout.ts"
+	],
+	"/notes/[slug]": [
+		"src/routes/notes/[slug]/+page.server.ts",
+		"src/routes/+layout.ts"
+	],
+	"/search": [
+		"src/routes/search/+page.ts",
+		"src/routes/+layout.ts"
+	]
+}

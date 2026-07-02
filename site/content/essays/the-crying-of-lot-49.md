@@ -1,5 +1,5 @@
 ---
-title: "Pynchon is buns"
+title: "The Crying of Lot 49"
 date: 12-25-2025
 confidence: 80
 importance: 5
